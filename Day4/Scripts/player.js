@@ -17,10 +17,10 @@ player.velY = 0;
 player.isJumping = false;   
 
 player.poses = {};
-player.poses["right"] = new Animation(["Assets/right0.png",
+player.poses["left"] = new Animation(["Assets/right0.png",
                                        "Assets/right1.png",
                                        "Assets/right2.png"]) 
-player.poses["left"] = new Animation(["Assets/left0.png",
+player.poses["right"] = new Animation(["Assets/left0.png",
                                       "Assets/left1.png",
                                       "Assets/left2.png"])
 //player.poses["front"] = new Animation(["Assets/Sanic.1.gif"])

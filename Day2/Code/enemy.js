@@ -6,7 +6,7 @@ function Enemy()
 	this.x = 0;
 	this.y = 0;
 	this.image = new Image();
-	this.image.src = ""
+	this.image.src = "Assets/Enemy1.jpg"
 	this.width = 32;
 	this.height = 32;
 

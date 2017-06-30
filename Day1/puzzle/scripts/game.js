@@ -26,7 +26,7 @@ function guessNumber()
     }
     else if (tries <= 0)
     {
-        document.body.innerHTML = "<h1>You lose! LOL</h1>";
+        document.body.innerHTML = "<h1>You lose! LOL</h1>,<h6>rylen didnt help me with anything at all</h6>";
     
     }
     else {

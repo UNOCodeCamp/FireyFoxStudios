@@ -4,6 +4,8 @@ game.score = 0;
 
 game.start = function()
 {
+	var audio = new Audio("Assets/rick.mp3");
+    audio.play();
 	input.start();
 	renderer.start();
 	game.main();
